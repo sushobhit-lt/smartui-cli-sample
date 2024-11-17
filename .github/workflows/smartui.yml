@@ -1,0 +1,49 @@
+name: SmartUI CLI Capture
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      query:
+        description: 'Enter the command to execute cli capture'
+        type: string
+        required: true
+      token:
+          description: 'Enter the command to execute cli capture'
+          type: string
+          required: true
+
+env:
+  PROJECT_TOKEN: ${{ inputs.token }}
+
+jobs:
+  smartui-cli-capture:
+    name: Execute CLI Capture
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Find Last CommitId
+      run: |
+        API_HOST=https://api.github.com
+        # Check out the PR branch
+        git checkout $GITHUB_HEAD_REF
+        # Get the commit ID of the last commit
+        COMMIT_ID=$(git rev-parse HEAD)
+        echo "Last commit ID of PR: $COMMIT_ID"
+        GITHUB_URL=$API_HOST/repos/$GITHUB_REPOSITORY/statuses/$COMMIT_ID
+        echo "GITHUB_URL: $GITHUB_URL"
+        echo "GITHUB_URL=$GITHUB_URL" >> $GITHUB_ENV
+   
+    - name: Install Dependencies
+      run: |
+        npm install
+        npm install @lambdatest/smartui-cli@latest -g
+
+    - name: Execute cli capture build
+      run: |
+        smartui --version
+        echo "Token => ${PROJECT_TOKEN}"
+        echo "Command => ${{ inputs.query }}"
+        ${{inputs.query}}

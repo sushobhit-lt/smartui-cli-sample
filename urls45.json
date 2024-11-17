@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Amazon-page-20",
+    "url": "https://www.amazon.com/s?k=laptop&page=20",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-82",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=82",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-94",
+    "url": "https://www.amazon.com/s?k=laptop&page=94",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-74",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=74",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-94",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=94",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-53",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=53",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-93",
+    "url": "https://www.amazon.com/s?k=laptop&page=93",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-62",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=62",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-63",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=63",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-85",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=85",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-19",
+    "url": "https://www.amazon.com/s?k=laptop&page=19",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-36",
+    "url": "https://www.amazon.com/s?k=laptop&page=36",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-92",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=92",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-34",
+    "url": "https://www.amazon.com/s?k=laptop&page=34",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-84",
+    "url": "https://www.amazon.com/s?k=laptop&page=84",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-88",
+    "url": "https://www.amazon.com/s?k=laptop&page=88",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-100",
+    "url": "https://www.amazon.com/s?k=laptop&page=100",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-98",
+    "url": "https://www.amazon.com/s?k=laptop&page=98",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-55",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=55",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-91",
+    "url": "https://www.amazon.com/s?k=laptop&page=91",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-83",
+    "url": "https://www.amazon.com/s?k=laptop&page=83",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-47",
+    "url": "https://www.amazon.com/s?k=laptop&page=47",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-90",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=90",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-51",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=51",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-89",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=89",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-13",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-44",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=44",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-6",
+    "url": "https://www.amazon.com/s?k=laptop&page=6",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-59",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=59",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-72",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=72",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-65",
+    "url": "https://www.amazon.com/s?k=laptop&page=65",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-5",
+    "url": "https://www.amazon.com/s?k=laptop&page=5",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-75",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=75",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-67",
+    "url": "https://www.amazon.com/s?k=laptop&page=67",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-85",
+    "url": "https://www.amazon.com/s?k=laptop&page=85",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-99",
+    "url": "https://www.amazon.com/s?k=laptop&page=99",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-49",
+    "url": "https://www.amazon.com/s?k=laptop&page=49",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-11",
+    "url": "https://www.amazon.com/s?k=laptop&page=11",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-33",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=33",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-17",
+    "url": "https://www.amazon.com/s?k=laptop&page=17",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-78",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=78",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-79",
+    "url": "https://www.amazon.com/s?k=laptop&page=79",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-31",
+    "url": "https://www.amazon.com/s?k=laptop&page=31",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Amazon-page-78",
+    "url": "https://www.amazon.com/s?k=laptop&page=78",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "Ebay-page-68",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=68",
+    "waitForTimeout": 1000
+  }
+]

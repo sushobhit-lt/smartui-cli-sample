@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@lambdatest/smartui-cli": "^4.0.10",
+    "@playwright/test": "^1.48.2"
+  }
+}
