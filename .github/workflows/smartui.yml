@@ -18,6 +18,8 @@ on:
 
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
+  SMARTUI_CLIENT_API_URL: https://stage-api.lambdatestinternal.com/visualui/1.0
+
 
 jobs:
   smartui-cli-capture:
