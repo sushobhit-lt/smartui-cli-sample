@@ -16,10 +16,10 @@ on:
         required: true
         default: '755#67472bf3-162a-4e2d-93e7-abb63a81948e#CFA-Upload-Retry'
   schedule:
-    - cron: '*/20 * * * *'  # Runs every 20 minutes
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
 
 env:
-  PROJECT_TOKEN: ${{ inputs.token }}
+  PROJECT_TOKEN: ${{ inputs.token || '755#67472bf3-162a-4e2d-93e7-abb63a81948e#CFA-Upload-Retry' }}
   #SMARTUI_CLIENT_API_URL: https://stage-api.lambdatestinternal.com/visualui/1.0
   LT_SDK_DEBUG: false
 
@@ -51,5 +51,5 @@ jobs:
       run: |
         smartui --version
         echo "Token => ${PROJECT_TOKEN}"
-        echo "Command => ${{ inputs.query }}"
-        ${{inputs.query}}
+        echo "Command => ${{ inputs.query || 'smartui capture cfaurl.json --config smartui-web1.json --parallel 5 --fetch-results'}}"
+        ${{ inputs.query || 'smartui capture cfaurl.json --config smartui-web1.json --parallel 5 --fetch-results' }}
