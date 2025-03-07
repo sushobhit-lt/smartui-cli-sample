@@ -15,6 +15,8 @@ on:
         type: string
         required: true
         default: '755#67472bf3-162a-4e2d-93e7-abb63a81948e#CFA-Upload-Retry'
+  schedule:
+    - cron: '*/20 * * * *'  # Runs every 20 minutes
 
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
