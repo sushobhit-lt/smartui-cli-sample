@@ -9,7 +9,7 @@ on:
         description: 'Enter the command to execute cli capture'
         type: string
         required: true
-        default: 'smartui capture urls.json --config smartui-web1.json --parallel 5'
+        default: 'smartui capture cfaurl.json --config smartui-web1.json --parallel 5 --fetch-results'
       token:
         description: 'Project token'
         type: string
@@ -19,7 +19,7 @@ on:
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
   #SMARTUI_CLIENT_API_URL: https://stage-api.lambdatestinternal.com/visualui/1.0
-  LT_SDK_DEBUG: true
+  LT_SDK_DEBUG: false
 
 jobs:
   smartui-cli-capture:
@@ -43,7 +43,7 @@ jobs:
     - name: Install Dependencies
       run: |
         npm install
-        npm install @lambdatest/smartui-cli@4.1.2-beta.0 -g
+        npm install @lambdatest/smartui-cli@latest -g
 
     - name: Execute cli capture build
       run: |
