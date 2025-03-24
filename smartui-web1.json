@@ -10,7 +10,7 @@
     ]
   },
   "waitForTimeout": 1000,
-  "waitForPageRender": 60000,
+  "waitForPageRender": 50000,
   "enableJavaScript": false,
   "allowedHostnames": [],
   "smartIgnore": false
